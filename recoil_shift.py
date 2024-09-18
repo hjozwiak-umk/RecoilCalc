@@ -47,4 +47,4 @@ if __name__ == "__main__":
     frequency = 2.17105181e14
     print(f"Transition frequency: {frequency:.6e} Hz")
     shift = recoil_shift(mass_u, frequency)
-    print(f"The recoil shift for the R(1) 2-0 transition in HD is {shift:.6e} Hz")
+    print(f"The recoil shift for the {transition_label} transition in {molecule} is {shift:.6e} Hz")
