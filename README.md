@@ -13,19 +13,19 @@ It utilizes constants from the `scipy.constants` library and includes an example
 
 ## Formula
 
-The recoil shift (\(\Delta \nu\)) is calculated using the formula:
+The recoil shift ($\Delta \nu$) is calculated using the formula
 
-\[
+$$
 \Delta \nu = \frac{h \nu^2}{2 M c^2}
-\]
+$$
 
 Where:
 
-- \( \Delta \nu \): Recoil shift in Hz
-- \( h \): Planck's constant (\(6.62607015 \times 10^{-34}\) J·s)
-- \( \nu \): Transition frequency in Hz
-- \( M \): Molecular mass in kilograms
-- \( c \): Speed of light in a vacuum (\(2.99792458 \times 10^8\) m/s)
+- $\Delta \nu$: Recoil shift in Hz
+- $h$: Planck's constant ($6.62607015 \times 10^{-34}$ J·s)
+- $\nu$: Transition frequency in Hz
+- $M$: Molecular mass in kilograms
+- $c$: Speed of light in a vacuum ($2.99792458 \times 10^8$ m/s)
 
 ## Requirements
 
@@ -54,8 +54,8 @@ python recoil_shift.py
 ## Example
 
 The script includes an example calculation for the R(1) 2-0 transition in HD:
-- **Molecular Mass**: 3.02204 u
-- **Transition Frequency**: \(2.17105181 \times 10^{14}\)
+- **Molecular Mass**: $3.02204$ u (mass of HD from the [NIST Chemistry WebBook](https://webbook.nist.gov/cgi/inchi?ID=C13983205&Mask=1))
+- **Transition Frequency**: $2.17105181 \times 10^{14}$ (as reported in the [Erratum to Phys. Rev. A 103, 042810 (2021)](https://doi.org/10.1103/PhysRevA.103.069902) by A. Castrillo et al.)
 
 **Output**
 ```scss
@@ -64,6 +64,7 @@ Molecular mass: 3.02204 a.m.u.
 Transition frequency: 2.171052e+14 Hz
 The recoil shift for the R(1) 2-0 transition in HD is 3.462388e+04 Hz
 ```
+The result agrees with the recoil shift reported in the [Erratum to Phys. Rev. A 103, 042810 (2021)](https://doi.org/10.1103/PhysRevA.103.069902).
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
